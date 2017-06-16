@@ -1,0 +1,115 @@
+.simulator {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  /*left: 50%;*/
+}
+
+.title {
+  height: 70px;
+  width: 300px;
+}
+
+.messages {
+  height: 325px;
+  width: 300px;
+  /*background-color: rgb( 111, 161, 199 );*/
+  background-image: url(../img/background.png);
+  text-align: right;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-top: -4px;
+}
+
+.messageImage0 {
+  height: 112px;
+  width: 130px;
+  float: right;
+  padding-left: 170px;
+}
+
+.messageImage1 {
+  height: 112px;
+  width: 130px;
+  float: left;
+  padding-right: 170px;
+}
+
+.messageText0 {
+  margin-right: 10px;
+}
+
+.messageText1 {
+  margin-left: 10px;
+}
+
+.textInputBlock {
+  display: inline-block;
+  height: 40px;
+  width: 300px;
+  background-color: rgb( 106, 196, 184 );
+  position: relative;
+}
+
+.textInput {
+  background-color: rgb( 106, 196, 184 );
+  border-style: none;
+  height: 20px;
+  width: 180px;
+  position: absolute;
+  top: 9px;
+  left: 59px;
+}
+
+input::placeholder {
+  color: rgb( 86, 134, 135 );
+}
+
+.activeReceive {
+  height: 20px;
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  left: 9px;
+}
+
+.inactiveReceive {
+  height: 20px;
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  left: 9px;
+}
+
+.activeSend {
+  height: 20px;
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 9px;
+}
+
+.inactiveSend {
+  height: 20px;
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 9px;
+}
+
+.previewStickers {
+  padding-top: 10px;
+  margin-top: -4px;
+  height: 130px;
+  width: 300px;
+  background-color: rgb( 230, 234, 237 );
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.previewSticker {
+  height: 60px;
+  width: 70px;
+}
